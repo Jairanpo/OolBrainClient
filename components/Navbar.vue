@@ -39,7 +39,7 @@
                 variant="outline-light"
                 class="m-3"
               >
-                <b-dropdown-item href="/in_progress">Overview</b-dropdown-item>
+                <b-dropdown-item href="/toolkits">Overview</b-dropdown-item>
               </b-dropdown>
             </b-col>
           </b-row>
