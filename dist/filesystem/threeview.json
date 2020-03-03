@@ -1,0 +1,248 @@
+{
+  "Root": {
+    "name": "Root",
+    "level": 0,
+    "description": {
+      "show": false,
+      "text": "Projects directory in the storage (Z:\\Projects)."
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "brand": { "name": "Brand", "link": "" }
+      }
+    }
+  },
+  "Brand": {
+    "name": "Brand",
+    "level": 1,
+    "description": {
+      "show": false,
+      "text": "Name of the brand that requested the project."
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "assets_library": { "name": "Assets Library", "link": "" }
+      },
+      "projects": { "name": "Project", "link": "" }
+    }
+  },
+  "assets_library": {
+    "name": "Assets Library",
+    "level": 2,
+    "description": {
+      "show": false,
+      "text": "This is a special directory only for projects with episodic-like structure or projects that share assets between them.\n In those cases, this directory will help us to avoid data duplication."
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "characters": { "name": "Characters", "link": "" },
+        "environments": { "name": "Environments", "link": "" },
+        "fx": { "name": "FX", "link": "" },
+        "graphics": { "name": "Graphics", "link": "" },
+        "props": { "name": "Props", "link": "" },
+        "setdressing": { "name": "SetDressing", "link": "" },
+        "vehicles": { "name": "Vehicles", "link": "" },
+        "more": { "name": "more +", "link": "/pipeline/assets" }
+      }
+    }
+  },
+  "Campaign": {
+    "name": "Campaign",
+    "level": 2,
+    "description": {
+      "show": false,
+      "text": "Campaign name that will comprehend one or many project to develop"
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "assets": { "name": "Assets +", "link": "/pipeline/assets" },
+        "project": { "name": "Project", "link": "" },
+        "sources": { "name": "Sources", "link": "" },
+        "client": { "name": "Client", "link": "" },
+        "creative": { "name": "Creative", "link": "" },
+        "final": { "name": "Final", "link": "" },
+        "production": { "name": "Production", "link": "" }
+      }
+    }
+  },
+  "assets": {
+    "name": "Assets",
+    "level": 3,
+    "description": {
+      "show": false,
+      "text": "This directory will store the assets that are required for the project."
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "characters": { "name": "Characters", "link": "" },
+        "environments": { "name": "Environments", "link": "" },
+        "fx": { "name": "FX", "link": "" },
+        "graphics": { "name": "Graphics", "link": "" },
+        "props": { "name": "Props", "link": "" },
+        "setdressing": { "name": "SetDressing", "link": "" },
+        "vehicles": { "name": "Vehicles", "link": "" },
+        "more": { "name": "more +", "link": "/pipeline/assets" }
+      }
+    }
+  },
+  "production": {
+    "name": "Production",
+    "level": 3,
+    "description": {
+      "show": false,
+      "text": "Production and project manager documents and files, as part of the production department, this is the place where you can save your data."
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "users": { "name": "Users", "link": "" }
+      }
+    }
+  },
+  "sources": {
+    "name": "Sources",
+    "level": 3,
+    "description": {
+      "show": false,
+      "text": "Audio files required by the sequence"
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "audio": { "name": "Audio", "link": "" },
+        "footage": { "name": "Footage", "link": "" }
+      }
+    }
+  },
+  "client": {
+    "name": "Client",
+    "level": 3,
+    "description": {
+      "show": false,
+      "text": "Files that the client provide."
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "brief": { "name": "01_Brief", "link": "" },
+        "ref": { "name": "02_References", "link": "" },
+        "time": { "name": "03_Timetable", "link": "" },
+        "src": { "name": "04_Sources", "link": "" },
+        "feed": { "name": "05_Feedback", "link": "" },
+        "meet": { "name": "06_Meetings", "link": "" }
+      }
+    }
+  },
+  "reviews": {
+    "name": "Reviews",
+    "level": 3,
+    "description": {
+      "show": false,
+      "text": "Scheduled files to sent for client approval."
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "project": { "name": "Project Name", "link": "" }
+      }
+    }
+  },
+  "Projects": {
+    "name": "Projects",
+    "level": 3,
+    "description": {
+      "show": false,
+      "text": "Name of the project, this folder name should be unique and clear about what the project is about"
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "audio": { "name": "Audio", "link": "" },
+        "prep": { "name": "Pre-production", "link": "" },
+        "sequence": { "name": "Sequence +", "link": "/pipeline/sequence" }
+      }
+    }
+  },
+  "Project": {
+    "name": "Project Name",
+    "level": 4,
+    "description": {
+      "show": false,
+      "text": "Name of the project, this folder name should be unique and clear about what the project is about"
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "audio": { "name": "Audio", "link": "" },
+        "sequence": { "name": "Sequence +", "link": "/pipeline/sequence" }
+      }
+    }
+  },
+  "prep": {
+    "name": "Pre-production",
+    "level": 5,
+    "description": {
+      "show": false,
+      "text": "Pre-production material"
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "story": { "name": "Storyboard", "link": "" },
+        "concept": { "name": "ConceptDesign", "link": "" },
+        "mood": { "name": "MoodBoard", "link": "" },
+        "anim": { "name": "Animatic", "link": "" }
+      }
+    }
+  },
+  "audio": {
+    "name": "Audios",
+    "level": 5,
+    "description": {
+      "show": false,
+      "text": "Pre-production material"
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "music": { "name": "Music", "link": "" },
+        "locution": { "name": "Locution", "link": "" },
+        "sfx": { "name": "SFX", "link": "" },
+        "mix": { "name": "MASTER", "link": "" }
+      }
+    }
+  },
+  "sequence": {
+    "name": "Sequence",
+    "level": 5,
+    "description": {
+      "show": false,
+      "text": "Shots data will be stored here"
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "sequence": { "name": "more +", "link": "/pipeline/sequence" }
+      }
+    }
+  },
+  "shots": {
+    "name": "(Shots): SHT010, SHT020...",
+    "level": 6,
+    "description": {
+      "show": false,
+      "text": "Shots data will be stored here"
+    },
+    "subfolders": {
+      "show": false,
+      "children": {
+        "shots": { "name": "more +", "link": "/filesystem/shots" }
+      }
+    }
+  }
+}

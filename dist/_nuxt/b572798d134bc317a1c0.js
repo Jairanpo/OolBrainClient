@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{209:function(t,e,n){"use strict";n.r(e);var c=n(27),component=Object(c.a)({},function(){var t=this.$createElement,e=this._self._c||t;return e("div",[e("b-container",{staticClass:"vertical-center"},[e("h1",[this._v("Still in progress, check back soon...")])])],1)},[],!1,null,null,null);e.default=component.exports}}]);
